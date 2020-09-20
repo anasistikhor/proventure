@@ -42,11 +42,13 @@ h1 {
   display: flex;
   color: #fff;
 
-  //padding: 0 20px;
+  padding: 0 20px;
 }
 @media screen and (min-width: 700px) {
   .flexbox-container {
     display: flex;
+    height: 100vh;
+    padding: 0 20px;
   }
 }
 
@@ -93,6 +95,11 @@ h1 {
 @media screen and (max-width: 700px) {
   .flexbox-content {
     display: flexbox;
+    width: 100%;
+    flex-basis: 600px;
+    align-self: center;
+    //flex-shrink: 0;
+    padding: 0 40px;
     //width: 100%;
     //height: auto;
     //flex-basis: 400px;
