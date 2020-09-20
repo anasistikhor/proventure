@@ -48,7 +48,7 @@ h1 {
   .flexbox-container {
     display: flex;
     height: 100vh;
-    padding: 0 20px;
+    //padding: 0 20px;
   }
 }
 
@@ -89,7 +89,7 @@ h1 {
   flex-basis: 600px;
   align-self: center;
   //flex-shrink: 0;
-  padding: 0 40px;
+  padding: 0 20px;
   z-index: 2;
 }
 @media screen and (max-width: 700px) {
@@ -99,7 +99,7 @@ h1 {
     flex-basis: 600px;
     align-self: center;
     //flex-shrink: 0;
-    padding: 0 40px;
+    //padding: 0 40px;
     //width: 100%;
     //height: auto;
     //flex-basis: 400px;
