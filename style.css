@@ -15,7 +15,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  overflow-x: hidden;
 }
 
 a {
@@ -93,11 +92,11 @@ h1 {
 }
 @media screen and (max-width: 700px) {
   .flexbox-content {
-    display: flexbox;
+    //display: inline-block;
     width: 100%;
-    height: auto;
+    //height: auto;
     flex-basis: 400px;
-    // flex-wrap: wrap;
+    //flex-wrap: wrap;
   }
 }
 
