@@ -86,16 +86,16 @@ h1 {
   width: 100%;
   flex-basis: 600px;
   align-self: center;
-  flex-shrink: 0;
+  //flex-shrink: 0;
   padding: 0 40px;
   z-index: 2;
 }
 @media screen and (max-width: 700px) {
   .flexbox-content {
-    //display: inline-block;
-    width: 100%;
+    display: flexbox;
+    //width: 100%;
     //height: auto;
-    flex-basis: 400px;
+    //flex-basis: 400px;
     //flex-wrap: wrap;
   }
 }
