@@ -96,7 +96,7 @@ h1 {
     display: flexbox;
     width: 100%;
     flex-basis: 400px;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
   }
 }
 
