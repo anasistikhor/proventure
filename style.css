@@ -84,7 +84,6 @@ h1 {
 }
 
 .flexbox-content {
-  margin-bottom: 50px;
   width: 100%;
   flex-basis: 600px;
   align-self: center;
@@ -98,7 +97,6 @@ h1 {
     width: 100%;
     flex-basis: 400px;
     flex-wrap: wrap;
-    margin-bottom: 0px;
   }
 }
 
