@@ -331,14 +331,14 @@ textarea {
 }
 
 button {
-  background: #4b6cb7;
+  background: #182848;
   color: #fff;
   width: 100%;
   border: 0;
 }
 button:hover,
 button:focus {
-  background: #182848;
+  background: #4b6cb7;
   outline: 0;
 }
 /* /form */
