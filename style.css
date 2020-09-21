@@ -98,7 +98,7 @@ h1 {
     display: flexbox;
     width: 100%;
     flex-basis: 600px;
-    padding: 50px 5px 25px;
+    padding: 0px 5px 25px;
     align-self: center;
     //flex-shrink: 0;
     //padding: 0 40px;
