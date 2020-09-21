@@ -194,13 +194,17 @@ hr {
   color: var(--secondary-color);
 }
 #about ul {
+  padding-bottom: 50px;
   margin: 0 auto;
-  text-align: center;
+  // text-align: center;
+  list-style-type: none;
 }
 #about li {
-  padding: 20px;
+  text-align: center;
+  //  padding: 20px;
   display: inline-block;
-  vertical-align: top;
+
+  // vertical-align: top;
 }
 
 /* /section-about */
