@@ -86,10 +86,11 @@ h1 {
 
 .flexbox-content {
   width: 100%;
-  flex-basis: 600px;
+  flex-basis: 800px;
   align-self: center;
   //flex-shrink: 0;
-  padding: 0 20px;
+  align-items: center;
+  padding: 0px 0px 40px;
   z-index: 2;
 }
 @media screen and (max-width: 700px) {
@@ -97,6 +98,7 @@ h1 {
     display: flexbox;
     width: 100%;
     flex-basis: 600px;
+    padding: 50px 5px 25px;
     align-self: center;
     //flex-shrink: 0;
     //padding: 0 40px;
